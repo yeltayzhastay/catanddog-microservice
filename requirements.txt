@@ -6,4 +6,5 @@ numpy
 PILLow
 io
 tensorflow
+keras
 opencv-python
