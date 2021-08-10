@@ -3,6 +3,7 @@
 from fastapi import APIRouter, HTTPException
 from app.models.models import PhotoList, PhotoOutList
 from app.services import ml
+import binascii
 
 
 router = APIRouter(
@@ -19,4 +20,6 @@ async def predict(data: PhotoList) -> PhotoOutList:
             results.append(result)
         except TypeError:
             return HTTPException(status_code=400, detail="TypeError")
+        except binascii.Error:
+            return HTTPException(status_code=400, detail="You've entered an invalid image base64")
     return {"results": results}
