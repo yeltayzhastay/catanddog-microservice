@@ -1,4 +1,4 @@
-#~/catanddog_service/app/api/models.py
+#~/catanddog_service/app/models/models.py
 
 from pydantic import BaseModel
 from typing import List
