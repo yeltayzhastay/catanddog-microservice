@@ -26,7 +26,7 @@
   ]
 }
 5. После этого модель была оценена, и было сделано несколько визуализаций, показывающих инсайты из выборки данных.
-![image](https://user-images.githubusercontent.com/54392243/128825010-27e8d571-dce1-457a-a917-b02b8ec319d7.png)
+![image](https://user-images.githubusercontent.com/54392243/128977331-3b38fd4f-f95a-4806-af59-4e94b2403414.png)
 
 ![image](https://user-images.githubusercontent.com/54392243/128825090-07b6b025-8f83-467b-9e17-978ab841b60d.png)
 
